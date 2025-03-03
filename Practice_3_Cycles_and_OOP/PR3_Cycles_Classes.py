@@ -68,20 +68,22 @@ class Rectangle(Shape):
         area = self.width * self.height
         return area
 
+
+#Task 1
+task1(1,11)    # Вивести усі числа від 1 до 10.
+task1(2, 21,2)     # Вивести усі парні числа від 1 до 20.
+task1(10, 0, -1)   # Вивести усі числа від 10 до 1
+
+#Task 2
+task2(1, 11)   # Створити таблицю множення від 1 до 10
+
+#Task 3
+ivas = Student("Ivas")  # Task 3
+ivas.greet()
+ivas.is_student()
+
+#Task 4
 circle1 = Circle(3)
 print(circle1.area())
 rectangle1 = Rectangle(2, 4)
 print(rectangle1.area())
-
-###
-
-#task1(1,11)    # Вивести усі числа від 1 до 10.
-#task1(2, 21,2)     # Вивести усі парні числа від 1 до 20.
-#task1(10, 0, -1)   # Вивести усі числа від 10 до 1
-
-#task2(1, 11)   # Створити таблицю множення від 1 до 10
-
-
-#ivas = Student("Ivas")  # Task 3
-#ivas.greet()
-#ivas.is_student()
